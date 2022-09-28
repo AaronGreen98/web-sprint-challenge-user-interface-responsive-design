@@ -98,8 +98,6 @@ a.title{
     justify-content: center;
     text-align: center;
     background-color: rgb(0, 4, 17, .8);
-
-    
 }
 .links{
     font-size: 2rem ;
@@ -151,26 +149,33 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+.middle-section{
+    background-color: rgb(0, 4, 17, .8);
+    width: 100%;
+    height: auto;
+    background-size: cover;
 
+}
+.middle-section h3{
+    padding-bottom: 3%;
+    font-size: 4rem;
+}
 .menu h2{
     text-align: center;
-    padding: 2%;
+    padding-top: 3%;
 }
 .menu p{
     font-size: 2rem;
 }
-.bevs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50%;
-    padding: 6%;
+.menu h4{
+    font-size: 3rem;
 }
+
 .bevs h3, h4, p{
     text-align: left;
 }
@@ -187,23 +192,104 @@ footer {
 .bevs-appetizers{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
 
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding bottom: 2%;
+}
+.menu-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+    padding: 3%;
+}
+
+.soup-entrees{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+}
+.soups{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 6%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.meals{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    padding: 6%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.dessert{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.bottom-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding top: 3%;
+}
+.appetizers p{
+    padding-bottom: 3%;
+}
+.bevs p{
+    padding-bottom: 3%;
 }
 
 .appetizers{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 50%;
+    width: 35%;
     padding: 6%;
+    padding-top: 1%;
     
 }
-.bevs p{
-    padding-bottom: 3%;
+.bottom-menu{ 
+  height: 700px;
 }
+.bevs h3{
+padding-bottom: 2%;
+}
+.appetizers h3{
+    padding-bottom: 2%;
+}
+.soup-entrees h3{
+    padding-bottom: 2%;
+}
+.soup-entrees p{
+padding-bottom: 3%;
+}
+
 .footersec{
     background-color: rgb(0, 4, 17);
     outline: auto;
+}
+.menu-item h4:first-of-type{
+    float: left;
+}
+.menu-item h4:last-of-type{
+    float: right;
+}
+.menu-section p{
+    width: 75%;
 }
 
 .mailing-signup h2{
@@ -239,12 +325,14 @@ footer {
         display: flex;
         justify-content: center;
         height: 30px;   
+
     }
     .email-button input{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .email-button button{
         font-size: 2rem;
+        font-weight: 500;
     }
     .footersec h2{
         text-align: center;
